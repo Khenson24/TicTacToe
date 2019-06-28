@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel = "stylesheet" type = "text/css" href="style.css"></link>
+    <title>tictactoe</title> 
+    </head>
+        <h1>This is Kenny's TicTacToe</h1>
+        <button onclick="cleargame()"> Replay </button>
+        <button onclick="reset()"> Reset </button>
+            <body>
+            <img src="https://www.innovatebham.com/static/img/fav/android-icon-192x192.png" alt="InnBham"></img>
+            
+                <table>
+                    <tr>
+                        <td class="cell" onclick="play(this)" id="0"></td>
+                        <td class="cell" onclick="play(this)" id="1"></td>
+                        <td class="cell" onclick="play(this)" id="2"></td>
+                    </tr>
+                    <tr>
+                        <td class="cell" onclick="play(this)" id="3"></td>
+                        <td class="cell" onclick="play(this)" id="4"></td>
+                        <td class="cell" onclick="play(this)" id="5"></td>
+                    </tr>
+                    <tr>
+                        <td class="cell" onclick="play(this)" id="6"></td>
+                        <td class="cell" onclick="play(this)" id="7"></td>
+                        <td class="cell" onclick="play(this)" id="8"></td> 
+                    </tr>
+                </table> 
+                   <!-- <p>I just wanted to make the page long</p> -->
+                   <p id="10">Player X Score: 0</p>
+                   <p id="11">Player O Score: 0</p>
+            </body>
+
+   <script src="app.js"></script>
+</html>
